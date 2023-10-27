@@ -21,6 +21,6 @@ REST-Rant is an app where users can review restaurants.
 
 | Name | City | State | Cuisine | Pic |
 | --- | --- | --- | --- | --- |
-| Canes | Chicago | Illinois | Chicken | canespic |
-| Taco Max | Chicago | Illinois | Mexican | tmpic |
-| Happy China | Chicago | Illinois | Asian | pic |
+| Canes | Chicago | IL | Chicken | canespic |
+| Taco Max | Chicago | IL | Mexican | tmpic |
+| Happy China | Chicago | IL | Asian | pic |
