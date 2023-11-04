@@ -4,8 +4,9 @@ const app = express()
 
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
-
 app.use('/places', require('./controllers/places'))
+app.use(express.static('public'))
+
 
 app.get('/', (req, res) => {
     res.render('home')
