@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
         city: 'Chicago',
         state: 'IL',
         cuisine: 'Chicken Tenders',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/canes.jpeg'
     }, {
         name: 'Taco Max',
         city: 'Chicago',
