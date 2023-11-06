@@ -18,6 +18,9 @@ router.get('/:id', (req, res) => {
     }
 })
 
+router.get('/places/show', (req,res) => {
+    res.render('/places/show')
+})
 router.get('/:id/edit', (req, res) => {
     let id = Number(req.params.id)
     if (isNaN(id)) {
